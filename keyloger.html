@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <h1>Key</h1>
+  <h2></h2>
+
+  <script>
+    // Variable to store pressed keys
+    let keyLog = '';
+
+    document.addEventListener("keypress", function (e) {
+      window.focus;
+      // Append the pressed key to the keyLog variable
+      keyLog += e.key;
+
+      // Update the content of h1 and h2 elements
+      document.querySelector('h1').innerHTML = e.key;
+      document.querySelector('h2').innerHTML = keyLog;
+
+      // Check if the pressed key is space
+      if (e.key === ' ') {
+        document.querySelector('h1').innerHTML = keyLog+="_";
+      }
+    });
+
+    document.addEventListener("keydown", function (e) {
+      // Check if the pressed key is Backspace or Delete
+      if (e.key === 'Backspace' || e.key === 'Delete') {
+        // Remove the last character from keyLog
+        keyLog = keyLog.slice(0, -1);
+        
+        // Update the content of h2 element
+        document.querySelector('h2').innerHTML = keyLog;
+      }
+    });
+  </script>
+</body>
+</html>
+
+  -->
